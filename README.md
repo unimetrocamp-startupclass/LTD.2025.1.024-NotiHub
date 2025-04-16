@@ -20,29 +20,30 @@ Equipe de Desenvolvimento	3
 
 Dados do Cliente
 Título do Projeto: NotiHub
-Cliente: ER Assessoria LTDA
-CNPJ/CPF: <CNPJ/CPF do cliente>
-Contato: Emerson Carlos Rocha
-Email do contato: <email do contato>
- 
+Cliente: ER Assessoria LTDA 
+CNPJ/CPF: 51.112.94/0001-00 
+Contato: (19) 9 9376-2200 
+Email do contato: emerson.carlos.rocha@gmail.com 
+
+ 
 
 Equipe de Desenvolvimento 
 Nome completo	Curso	Disciplina
 Allisson Maciel	- Ciencia da Computação - Programação Orientada a objetos em java
-Rodrigo Martins Bassi	ADS	Programação Orientada a objetos em java
+Hugo Martins Bassi	ADS	Programação Orientada a objetos em java
 Rafael Sobral 	ADS	Programação Orientada a objetos em java
 
 Professor Orientador
-ksede
+ksede Rodrigues Julio
 
 1.	Introdução
-
-	O cliente solicitou o desenvolvimento de um dashboard unificado capaz de centralizar mensagens e solicitações provenientes de plataformas de comunicação, são elas o Gmail, Zoom e Microsoft Teams. A necessidade de tornar esse processo mais eficiente e organizado motivou a criação do NotiHub.
+ 
+	Com a crescente demanda por centralização e gestão eficiente de canais de comunicação, torna-se essencial o desenvolvimento de ferramentas que integrem múltiplas plataformas em uma interface única e acessível. Neste contexto, este projeto tem como objetivo a criação de um Dashboard Unificado para um cliente específico, visando consolidar mensagens e solicitações oriundas do Gmail, Zoom e Microsoft Teams, facilitando a visualização, o acompanhamento e o gerenciamento dessas comunicações.
 
 O NotiHub tem como objetivo reunir, em um único ambiente, todas as notificações e mensagens recebidas, permitindo que sejam visualizadas de forma clara, rápida e acessível. Através da integração com as APIs oficiais dessas plataformas e com o uso da linguagem Python para o desenvolvimento, o sistema garantirá um fluxo de dados seguro, funcional e em tempo real.
 
 
-2.	Objetivo
+3.	Objetivo
 
 Centralizar e organizar, de forma automatizada, as notificações e mensagens recebidas por diferentes plataformas de comunicação (Gmail, Zoom e Microsoft Teams), permitindo que o cliente visualize e gerencie todas essas informações em um único dashboard, otimizando o fluxo de trabalho e reduzindo o tempo gasto com múltiplos acessos manuais.
 
@@ -115,25 +116,13 @@ Todas as informações obtidas das APIs devem ser protegidas por criptografia du
 
 
 
+
 5.	Cronograma
-Data | Evento | Atividade Principal
-26/02/2025 | Sprint 1 | Início do Projeto / Planejamento
------------------------fERIADO--------------------------------
-26/03/2025 | Aula de Desenvolvimento | Requisitos
-02/04/2025 | Aula de Desenvolvimento | Modelagem dos Dados
-09/04/2025 | Aula de Desenvolvimento | Continuação da Modelagem de Dados
-16/04/2025 | Sprint 2 | Entrega
-23/04/2025 | Aula de Desenvolvimento | Começo do Sprint 3
-30/04/2025 | Sprint 3 | Entrega
-07/05/2025 | Aula de Desenvolvimento | Realização do MVP
-14/05/2025 | Semana de Tecnologia | Apresentação
-21/05/2025 | Aula de Desenvolvimento | Codificação do MPV
-28/05/2025 | Aula de Desenvolimento | Últimos Ajustes / Documentação
-04/06/2025 | Entrega Final | FENET
+
+![image](https://github.com/user-attachments/assets/51dfcdbd-c967-4b08-9f51-432f68058308)
 
 
-
-7.	Materiais e Métodos
+6.	Materiais e Métodos
 
 
 a.	Modelagem do sistema: <Dica: a modelagem do seu sistema são diagramas (desenhos) da sua estrutura ou comportamento. A UML (Unified Modelling Language) oferece diversos diagramas para que você possa modelar seu sistema. Escolha, pelo menos, dois modelos e insira aqui. Por exemplo, Modelo de Dados (Diagrama de Classe ou MER), Casos de Uso, Diagrama de Sequência, Diagrama de Atividades etc. Estes modelos são próprios para construção da comunicação, entendimento e implantação dos requisitos do sistema. Você pode usar ferramentas, como: LucidChart, Draw.io etc. Veja exemplos em Diagramas UML: exemplo e modelos | Lucidchart Blog>. Recomendo os diagramas: Caso de Uso: mostra as relações entre Atores e Processos, Diagrama de Classes: mostra as relações entre as classes (quando houver) do sistema e o MER (Modelo Entidade-Relacionamento): mostra as relações entre os dados das tabelas de BD. Mas cada sistema pede diagramas diferentes. Portanto, aplique conforme necessidade;
@@ -174,10 +163,10 @@ Ao final da apresentação, o sistema  foi homologado pelo cliente.
 10.	Divulgação
 
 a.	Linkedin do Projeto
-<A página do Linkedin do projeto deve ter o logo do LTD, o titulo do projeto, um breve resumo, o nome dos integrantes e o nome do professor-orientador. Insira também o link do repositório do projeto no GitHub. Neste perfil, deve ser postado a cada Sprint, os artefatos produzidos (diagramas, videos explicativos de códigos, artigo sobre determinado tema vinculado ao desenvolvimento do projeto). Promova engajamento e networking conectando-se a profissionais da área, compartilhamentos, comentários etc. 
-Insira o linnk deste perfil com o seu perfil pessoal do Linkedin.
+https://www.linkedin.com/in/notihub-application-82a805360/ 
+![Uploading image.png…]()
 
-<print da tela de perfil do Linkedin>	<link da pág do Linkedin>
+
 
 b.	Seminário de Projetos de Software
 
