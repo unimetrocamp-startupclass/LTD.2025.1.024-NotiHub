@@ -43,7 +43,7 @@ ksede Rodrigues Julio
 O NotiHub tem como objetivo reunir, em um único ambiente, todas as notificações e mensagens recebidas, permitindo que sejam visualizadas de forma clara, rápida e acessível. Através da integração com as APIs oficiais dessas plataformas e com o uso da linguagem Python para o desenvolvimento, o sistema garantirá um fluxo de dados seguro, funcional e em tempo real.
 
 
-3.	Objetivo
+2.	Objetivo
 
 Centralizar e organizar, de forma automatizada, as notificações e mensagens recebidas por diferentes plataformas de comunicação (Gmail, Zoom e Microsoft Teams), permitindo que o cliente visualize e gerencie todas essas informações em um único dashboard, otimizando o fluxo de trabalho e reduzindo o tempo gasto com múltiplos acessos manuais.
 
@@ -113,8 +113,6 @@ O sistema deve ser projetado para ser hospedado em ambientes de nuvem, como Azur
 
 RNF05 – Segurança e privacidade dos dados:
 Todas as informações obtidas das APIs devem ser protegidas por criptografia durante a transmissão e o armazenamento.
-
-
 
 
 5.	Cronograma
