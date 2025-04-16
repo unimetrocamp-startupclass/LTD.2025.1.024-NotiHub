@@ -1,0 +1,296 @@
+Documentação do Sistema
+
+SUMÁRIO
+
+Dados do Cliente	2
+Equipe de Desenvolvimento	3
+1. Introdução	4
+2. Objetivo	5
+3. Escopo	6
+4. Backlogs do Produto	7
+5. Cronograma	8
+6. Materiais e Métodos	9
+7. Resultados	10
+8. Conclusão	11
+9. Homologação do MVP junto ao cliente	12
+10. Divulgação	13
+11. Carta de Apresentação	15
+12. Carta de Autorização	16
+13. Relato individual do processo	18
+
+Dados do Cliente
+Título do Projeto: NotiHub
+Cliente: ER Assessoria LTDA
+CNPJ/CPF: <CNPJ/CPF do cliente>
+Contato: Emerson Carlos Rocha
+Email do contato: <email do contato>
+ 
+
+Equipe de Desenvolvimento 
+Nome completo	Curso	Disciplina
+Allisson Maciel	- Ciencia da Computação - Programação Orientada a objetos em java
+Rodrigo Martins Bassi	ADS	Programação Orientada a objetos em java
+Rafael Sobral 	ADS	Programação Orientada a objetos em java
+
+Professor Orientador
+ksede
+
+1.	Introdução
+
+	O cliente solicitou o desenvolvimento de um dashboard unificado capaz de centralizar mensagens e solicitações provenientes de plataformas de comunicação, são elas o Gmail, Zoom e Microsoft Teams. A necessidade de tornar esse processo mais eficiente e organizado motivou a criação do NotiHub.
+
+O NotiHub tem como objetivo reunir, em um único ambiente, todas as notificações e mensagens recebidas, permitindo que sejam visualizadas de forma clara, rápida e acessível. Através da integração com as APIs oficiais dessas plataformas e com o uso da linguagem Python para o desenvolvimento, o sistema garantirá um fluxo de dados seguro, funcional e em tempo real.
+
+
+2.	Objetivo
+
+Centralizar e organizar, de forma automatizada, as notificações e mensagens recebidas por diferentes plataformas de comunicação (Gmail, Zoom e Microsoft Teams), permitindo que o cliente visualize e gerencie todas essas informações em um único dashboard, otimizando o fluxo de trabalho e reduzindo o tempo gasto com múltiplos acessos manuais.
+
+
+3.	Escopo
+
+Escopo do Projeto
+O sistema NotiHub terá como principal foco a centralização de notificações e mensagens provenientes das plataformas Gmail, Zoom e Microsoft Teams em um único dashboard, acessível e organizado. A primeira versão do sistema implementará as seguintes funcionalidades principais:
+
+Integração com APIs (Gmail, Zoom e Teams):
+O sistema irá se conectar às APIs dessas três plataformas para coletar e exibir notificações e mensagens relevantes.
+
+Dashboard unificado de notificações:
+Será desenvolvido um painel principal onde o usuário poderá visualizar, filtrar e acessar rapidamente todas as notificações recebidas, organizadas por data, plataforma e tipo.
+
+Funcionalidade de login e autenticação segura:
+O sistema permitirá o acesso de usuários por meio de login com autenticação segura, utilizando OAuth 2.0 quando necessário.
+
+Limites da Implementação
+O projeto não incluirá funcionalidades de resposta ou envio de mensagens diretamente pelo NotiHub nesta versão inicial.
+
+A integração será limitada somente às três plataformas citadas (Gmail, Zoom e Teams), não abrangendo redes sociais ou outros serviços de comunicação.
+
+A atualização das notificações será feita em tempo quase real, respeitando os limites de chamada das APIs utilizadas.
+
+O sistema será implementado apenas para acesso via navegador (web), sem versão mobile nativa nesta primeira entrega.
+
+4.	Backlogs do Produto
+
+Requisitos Funcionais (RF):
+RF01 – Login seguro do usuário:
+O sistema deve permitir que o usuário faça login utilizando autenticação segura, podendo ser integrada com autenticação OAuth 2.0.
+
+RF02 – Integração com Gmail:
+O sistema deve se conectar à API do Gmail para coletar e exibir as mensagens e notificações recebidas.
+
+RF03 – Integração com Zoom:
+O sistema deve se conectar à API do Zoom para acessar alertas de reuniões, mensagens diretas e chamadas.
+
+RF04 – Integração com Microsoft Teams:
+O sistema deve se conectar à API do Teams para exibir mensagens, menções e convites recebidos.
+
+RF05 – Exibição unificada das notificações:
+O sistema deve exibir todas as notificações integradas em um único dashboard, com filtros por plataforma, tipo e data.
+
+RF06 – Atualização em tempo quase real:
+O sistema deve atualizar as notificações em tempo próximo ao real, conforme permitido pelas APIs das plataformas.
+
+RF07 – Visualização detalhada da notificação:
+O usuário deve poder clicar em uma notificação para visualizar detalhes como remetente, conteúdo e horário.
+
+RF08 – Marcar como lido/arquivar:
+O sistema deve permitir que o usuário marque notificações como lidas ou as arquive do painel.
+
+Requisitos Não Funcionais (RNF):
+RNF01 – Linguagem de programação:
+O backend será desenvolvido em Python, utilizando frameworks como Flask ou FastAPI.
+
+RNF02 – Interface intuitiva e responsiva:
+A interface será desenvolvida em React, com design responsivo para uso em desktop e dispositivos móveis.
+
+RNF03 – Armazenamento seguro:
+As notificações e preferências dos usuários devem ser armazenadas com segurança em um banco de dados relacional ou NoSQL.
+
+RNF04 – Escalabilidade e disponibilidade:
+O sistema deve ser projetado para ser hospedado em ambientes de nuvem, como Azure ou Google Cloud, garantindo alta disponibilidade.
+
+RNF05 – Segurança e privacidade dos dados:
+Todas as informações obtidas das APIs devem ser protegidas por criptografia durante a transmissão e o armazenamento.
+
+
+
+5.	Cronograma
+Data | Evento | Atividade Principal
+26/02/2025 | Sprint 1 | Início do Projeto / Planejamento
+-----------------------fERIADO--------------------------------
+26/03/2025 | Aula de Desenvolvimento | Requisitos
+02/04/2025 | Aula de Desenvolvimento | Modelagem dos Dados
+09/04/2025 | Aula de Desenvolvimento | Continuação da Modelagem de Dados
+16/04/2025 | Sprint 2 | Entrega
+23/04/2025 | Aula de Desenvolvimento | Começo do Sprint 3
+30/04/2025 | Sprint 3 | Entrega
+07/05/2025 | Aula de Desenvolvimento | Realização do MVP
+14/05/2025 | Semana de Tecnologia | Apresentação
+21/05/2025 | Aula de Desenvolvimento | Codificação do MPV
+28/05/2025 | Aula de Desenvolimento | Últimos Ajustes / Documentação
+04/06/2025 | Entrega Final | FENET
+
+
+
+7.	Materiais e Métodos
+
+
+a.	Modelagem do sistema: <Dica: a modelagem do seu sistema são diagramas (desenhos) da sua estrutura ou comportamento. A UML (Unified Modelling Language) oferece diversos diagramas para que você possa modelar seu sistema. Escolha, pelo menos, dois modelos e insira aqui. Por exemplo, Modelo de Dados (Diagrama de Classe ou MER), Casos de Uso, Diagrama de Sequência, Diagrama de Atividades etc. Estes modelos são próprios para construção da comunicação, entendimento e implantação dos requisitos do sistema. Você pode usar ferramentas, como: LucidChart, Draw.io etc. Veja exemplos em Diagramas UML: exemplo e modelos | Lucidchart Blog>. Recomendo os diagramas: Caso de Uso: mostra as relações entre Atores e Processos, Diagrama de Classes: mostra as relações entre as classes (quando houver) do sistema e o MER (Modelo Entidade-Relacionamento): mostra as relações entre os dados das tabelas de BD. Mas cada sistema pede diagramas diferentes. Portanto, aplique conforme necessidade;
+b.	Tecnologias utilizadas: <Dica: escreva quais linguagens foram utilizadas, quais  frameworks, bibliotecas e API’s consumidas/criadas. Quais ferramentas foram usadas para desenho dos modelos. Para cada um deles, faça uma pequena descrição de uso.>
+
+c.	Arquitetura do sistema: <Dica: insira aqui uma imagem contendo a arquitetura do sistema e o fluxo das informações. Se a arquitetura for muito simples, detalhe o fluxo dos processos. (veja um exemplo na figura 1 (pag. 79) deste artigo: Monitor de WhatsApp: Um Sistema para Checagem de Fatos no Combate à Desinformação>. Este diagrama será muito bom para usar no banner da FENETEC.
+
+
+7.	Resultados
+
+a.	Protótipo: <Dica: são as telas do software e suas descrições. Em cada uma delas, descreva as ações possíveis do usuário e reações do sistema. Isto pode ser feito através do print das telas do seu sistema. As telas não podem ocupar muito espaço da página, porém também não podem ficar ilegíveis>
+b.	Códigos das principais funcionalidades: <Dica: copy-cole aqui as seções mais relevantes do seu código. Insira comentários sobre cada seção.>
+
+8.	Conclusão
+
+a.	Impacto do sistema: <Dica: como o sistema impactou (alterou positivamente) o processo do cliente>
+b.	Melhorias Futuras: <Dica: elencar, pelo menos, uma melhoria que poderá ser realizada futuramente no sistema.>
+
+
+9.	Homologação do MVP junto ao cliente
+
+Após as entregas parciais, realizadas de acordo com os requisitos do sistema  e cronograma, o MVP foi apresentado em uma reunião, realizada entre o time de desenvolvedores e o cliente.
+
+<Dica: inserir uma foto da homologação em cada linha do quadro abaixo. Serão 4 fotos (tiradas no momento da homologação) e, na linha debaixo, uma legenda para cada uma delas. A homologação, preferencialmente, deve ser presencial. Se não for viável, pode ser feita por videoconferência com prints da tela.>
+
+<foto 1: foto do time e cliente com o primeiro slide de fundo>	<foto 2: foto de um integrante apresentando o MVP.>
+Da esquerda para direita: <legenda 1: descreva quem está na foto>	<legenda 2: coloque o nome de quem está apresentando>
+<foto 3: foto dos participantes assistindo a homologação>	<foto 4: foto do plano geral do local>
+Participantes da homologação assistindo a apresentação	Participantes da homologação
+
+Segue abaixo a lista de presentes na homologação do MVP.
+
+Lista de presentes na Homologação
+<Cole aqui a foto da lista de presentes na homologação.>
+
+Ao final da apresentação, o sistema  foi homologado pelo cliente.
+
+10.	Divulgação
+
+a.	Linkedin do Projeto
+<A página do Linkedin do projeto deve ter o logo do LTD, o titulo do projeto, um breve resumo, o nome dos integrantes e o nome do professor-orientador. Insira também o link do repositório do projeto no GitHub. Neste perfil, deve ser postado a cada Sprint, os artefatos produzidos (diagramas, videos explicativos de códigos, artigo sobre determinado tema vinculado ao desenvolvimento do projeto). Promova engajamento e networking conectando-se a profissionais da área, compartilhamentos, comentários etc. 
+Insira o linnk deste perfil com o seu perfil pessoal do Linkedin.
+
+<print da tela de perfil do Linkedin>	<link da pág do Linkedin>
+
+b.	Seminário de Projetos de Software
+
+Vídeo da apresentação: <Grave sua apresentação, poste no Linkedin do projeto e insira aqui o link público (acesso sem login) do vídeo da apresentação>
+
+<Na tabela abaixo, inserir uma foto da apresentação em cada linha. Serão 4 fotos (tiradas no momento da apresentação). Para cada foto, descreva uma legenda na linha de baixo.>
+
+<foto 1: foto do time com o primeiro slide de fundo>	<foto 2: foto de um integrante apresentando o sistema.>
+Da esquerda para direita: <legenda 1: descreva quem está na foto>	<legenda 2: coloque o nome de quem está apresentando>
+<foto 3: foto plano geral da apresentação de frente para o fundo da sala>	<foto 4:  foto plano geral da apresentação do fundo para a frente da sala>
+Participantes do evento assistindo a apresentação	Participantes do evento assistindo a apresentação
+
+Segue abaixo a lista de presentes na apresentação.
+
+Lista de presentes na Apresentação
+<Faça uma lista de presença numa folha A4, contendo no alto da folha “Seminários de Projetos de Software”. A lista deve conter ra, nome e assinatura dos presentes. Cole aqui a foto desta lista.>
+
+c.	FENETEC: Feira de Negócios em Tecnologia
+
+Apresentação do projeto: <Um vídeo deve ser produzido mostrando o time apresentando seu projeto para algum visitante. Importante que neste video tenha uma tomada do banner e dos integrantes. Insira aqui o link público deste vídeo.>
+
+<Na tabela abaixo, inserir uma foto da apresentação em cada linha. Serão 4 fotos (tiradas do evento). Para cada foto, descreva uma legenda na linha de baixo.>
+
+<foto 1: foto do time ao lado do poster>	<foto 2: foto de um integrante apresentando o sistema.>
+Da esquerda para direita: <legenda 1: descreva quem está na foto>	<legenda 2: coloque o nome de quem está apresentando>
+<foto 3: foto do público assistindo sua apresentação>	<foto 4:  foto plano geral da FENETEC>
+Participantes do evento assistindo a apresentação	Estandes da FENETEC
+
+Segue abaixo a lista de presentes na FENETEC.
+
+Lista de presentes na Apresentação
+<cole aqui a lista de presença dos visitantes da FENETEC com nome e email do visitante . Os próprios times farão um form contendo no cabeçalho: Lista de Visitantes FENETEC. Compartilhe a planilha gerada pelo form com todos os times.>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.	Carta de Apresentação
+Vimos por desta apresentar o grupo de acadêmicos do Centro Universitário Unimetrocamp, localizada à Rua Sales de Oliveira, 1661 - Campinas - SP, a fim de convidá-lo a participar de uma atividade extensionista associada ao componente curricular <inserir o nome da disciplina>, sob responsabilidade do orientador Prof. Kesede Rodrigues Julio (profkesede64@gmail.com).
+Em consonância ao Plano Nacional de Educação vigente, o Centro Universitário Unimetrocamp promove o Desenvolvimento de Software que, norteados pela metodologia de Gerenciamento Ágil Scrum, tem por princípios fundantes o diagnóstico dos problemas/demandas/necessidades, a participação ativa dos interessados/públicos participantes, a construção dialógica, coletiva e experiencial de conhecimentos, o planejamento de ações, o desenvolvimento e avaliação das ações, a sistematização dos conhecimentos, a avaliação das ações desenvolvidas.
+Nesse contexto, a disciplina acima mencionada tem como principal escopo os temas relacionados à Programação Orientada à Objeto / Padrões de Projetos de Software, no que diz respeito ao desenvolvimento de um software utilizando Programação Orientada à Objeto.
+Sendo assim, pedimos o apoio de <nome do cliente> para a realização das seguintes atividades: levantamento de requisitos, validação das entregas parciais, revalidação dos requisitos, homologação do MVP, ou qualquer outra intervenção que auxilie no desenvolvimento das competências de nossos acadêmicos e ao mesmo tempo possa contribuir para a comunidade em que estamos inseridos.
+Aproveitamos a oportunidade para solicitarmos, em caso de aceite, que a parceria seja formalizada, mediante assinatura da Carta de Autorização, as atividades e informações que o(s) aluno(s) poderá(ão) ter acesso.
+Em tempo, registramos ainda, o convite para a participação de todos os interessados no fórum semestral de acompanhamento e avaliação das atividades realizadas, que está previsto para o final deste semestre, e será comunicado previamente em convite específico.
+Desde já nos colocamos à sua disposição para quaisquer esclarecimentos.
+Atenciosamente,
+Campinas, ____ de _________ de 202___.
+
+____________________________________
+Assinatura Direção Acadêmica da IES
+ 
+____________________________________
+Assinatura Docente
+
+
+12.	Carta de Autorização
+Eu, (preencher com nome do responsável), (preencher com cargo ocupado), da (nome da empresa, organização, associação, escola, secretaria, etc., situada no endereço – inserir o endereço), autorizo a realização das seguintes atividades acadêmicas do componente extensionista <código e nome da disciplina>, do Centro Universitário Unimetrocamp, sob orientação do Prof. Kesede Rodrigues Julio.
+ 
+Atividades:
+ 
+ 
+ 
+ 
+Conforme combinado em contato prévio, as atividades acima descritas são autorizadas para os seguintes alunos:
+ 
+Nome dos/das alunos/as	Curso	Matrícula
+ 	 	 
+ 	 	 
+ 	 	 
+ 	 	 
+		
+ 
+Declaro que fui informado por meio da Carta de Apresentação sobre as características e objetivos das atividades que serão realizadas na organização/instituição/empresa a qual represento e afirmo estar ciente de tratar-se de uma atividade realizada com intuito exclusivo de ensino de alunos de graduação, sem a finalidade de exercício profissional.
+ 
+Desta forma, autorizo, em caráter de confidencialidade:
+ 
+●	 o acesso a informações e dados que forem necessários à execução da atividade;
+●	 o registro de imagem por meio de fotografias;
+●	 outro: (especificar)
+ 
+ 
+Campinas, ___ de ___________de 202_.
+ 
+___________________________________________________________________
+(Assinatura, nome completo do responsável, email de contato e com carimbo da empresa)
+ 
+
+13.	Relato individual do processo
+
+<nome do aluno>
+<um breve relato pessoal sobre o trabalho extensionista desenvolvido>
+
+<nome do aluno>
+<um breve relato pessoal sobre o trabalho extensionista desenvolvido>
+
+<nome do aluno>
+<um breve relato pessoal sobre o trabalho extensionista desenvolvido>
+
+<nome do aluno>
+<um breve relato pessoal sobre o trabalho extensionista desenvolvido>
+
+<nome do aluno>
+<um breve relato pessoal sobre o trabalho extensionista desenvolvido>
+
+
+ 
+
