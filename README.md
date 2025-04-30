@@ -123,7 +123,8 @@ Todas as informações obtidas das APIs devem ser protegidas por criptografia du
 6.	Materiais e Métodos
 
 
-a.	Modelagem do sistema: <Dica: a modelagem do seu sistema são diagramas (desenhos) da sua estrutura ou comportamento. A UML (Unified Modelling Language) oferece diversos diagramas para que você possa modelar seu sistema. Escolha, pelo menos, dois modelos e insira aqui. Por exemplo, Modelo de Dados (Diagrama de Classe ou MER), Casos de Uso, Diagrama de Sequência, Diagrama de Atividades etc. Estes modelos são próprios para construção da comunicação, entendimento e implantação dos requisitos do sistema. Você pode usar ferramentas, como: LucidChart, Draw.io etc. Veja exemplos em Diagramas UML: exemplo e modelos | Lucidchart Blog>. Recomendo os diagramas: Caso de Uso: mostra as relações entre Atores e Processos, Diagrama de Classes: mostra as relações entre as classes (quando houver) do sistema e o MER (Modelo Entidade-Relacionamento): mostra as relações entre os dados das tabelas de BD. Mas cada sistema pede diagramas diferentes. Portanto, aplique conforme necessidade;
+a.	Modelagem do sistema: ![image](https://github.com/user-attachments/assets/1e9b050d-28b9-4482-a9c1-d8e6ff5abf39)
+
 b.	Tecnologias utilizadas: <Dica: escreva quais linguagens foram utilizadas, quais  frameworks, bibliotecas e API’s consumidas/criadas. Quais ferramentas foram usadas para desenho dos modelos. Para cada um deles, faça uma pequena descrição de uso.>
 
 c.	Arquitetura do sistema: <Dica: insira aqui uma imagem contendo a arquitetura do sistema e o fluxo das informações. Se a arquitetura for muito simples, detalhe o fluxo dos processos. (veja um exemplo na figura 1 (pag. 79) deste artigo: Monitor de WhatsApp: Um Sistema para Checagem de Fatos no Combate à Desinformação>. Este diagrama será muito bom para usar no banner da FENETEC.
