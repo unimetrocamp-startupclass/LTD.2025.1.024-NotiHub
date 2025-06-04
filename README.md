@@ -125,9 +125,19 @@ Todas as informações obtidas das APIs devem ser protegidas por criptografia du
 
 a.	Modelagem do sistema: ![image](https://github.com/user-attachments/assets/1e9b050d-28b9-4482-a9c1-d8e6ff5abf39)
 
-b.	Tecnologias utilizadas: <Dica: escreva quais linguagens foram utilizadas, quais  frameworks, bibliotecas e API’s consumidas/criadas. Quais ferramentas foram usadas para desenho dos modelos. Para cada um deles, faça uma pequena descrição de uso.>
+b.	Tecnologias utilizadas: O desenvolvimento do sistema Dashboard de Mensagens envolveu o uso de diversas linguagens, frameworks, bibliotecas, APIs e ferramentas, que juntos proporcionaram uma aplicação funcional, moderna e com integração em tempo real. Abaixo estão listadas as principais tecnologias utilizadas e uma breve descrição do uso de cada uma: 
 
-c.	Arquitetura do sistema: <Dica: insira aqui uma imagem contendo a arquitetura do sistema e o fluxo das informações. Se a arquitetura for muito simples, detalhe o fluxo dos processos. (veja um exemplo na figura 1 (pag. 79) deste artigo: Monitor de WhatsApp: Um Sistema para Checagem de Fatos no Combate à Desinformação>. Este diagrama será muito bom para usar no banner da FENETEC.
+JavaScript: Linguagem principal utilizada para a lógica do frontend, responsável por tornar a interface dinâmica e interativa. 
+
+HTML: Estrutura base das páginas do sistema, definindo a organização dos elementos visuais da interface. 
+
+CSS: Utilizado para o design e o estilo visual do sistema, garantindo uma aparência moderna, limpa e responsiva. 
+
+React: Framework JavaScript usado para construir a interface de usuário de forma componentizada, facilitando a manutenção e reutilização de elementos da aplicação. 
+
+Node.js: Ambiente de execução JavaScript no lado do servidor (backend), responsável pelo tratamento de requisições, autenticações e integração com APIs externas. 
+
+API do Google Gmail: Utilizada para integrar mensagens enviadas ou recebidas por e-mail, permitindo monitoramento em tempo real dentro do dashboard. 
 
 
 7.	Resultados
@@ -137,9 +147,27 @@ b.	Códigos das principais funcionalidades: <Dica: copy-cole aqui as seções ma
 
 8.	Conclusão
 
-a.	Impacto do sistema: <Dica: como o sistema impactou (alterou positivamente) o processo do cliente>
-b.	Melhorias Futuras: <Dica: elencar, pelo menos, uma melhoria que poderá ser realizada futuramente no sistema.>
+a. Impacto no sistema: A implementação do Dashboard de Mensagens trouxe impactos positivos significativos para o processo de comunicação e gestão do cliente. Antes da adoção do sistema, a coleta e o acompanhamento de mensagens em múltiplas plataformas (como Google Meet, Microsoft Teams e Zoom) eram descentralizados, manuais e suscetíveis a atrasos ou falhas de controle. 
 
+Com o sistema, passou a ser possível: 
+
+Centralizar todas as mensagens em um único painel intuitivo; 
+
+Acompanhar em tempo real o volume de interações por empresa e por plataforma; 
+
+Integrar automaticamente novas contas por meio de autenticação simplificada; 
+
+Reduzir o tempo gasto na busca por informações e melhorar a tomada de decisões. 
+
+Como resultado, o cliente terá um aumento na produtividade da equipe, maior controle da comunicação corporativa e redução de erros operacionais, além de otimização do tempo e dos recursos humanos. 
+
+b. Melhorias Futuras: Uma melhoria planejada para versões futuras do sistema é a integração total da apis e sua otimização, visto que é um processo complicado e exige investimento. A implementação das apis que faltam (teams e zoom) além de outras extras como twitter, Facebook e WhatsApp iria enriquecer a experiência do Notihub. 
+
+Outras possíveis mudanças seriam:  
+
+Uma área de configurações para que o usuário possa personalizar de forma livre. 
+
+Filtros e barra de pesquisa para encontrar as mensagens que o usuário deseja. 
 
 9.	Homologação do MVP junto ao cliente
 
